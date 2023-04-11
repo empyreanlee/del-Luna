@@ -1,0 +1,137 @@
+ .foot {
+  background-color: whitesmoke;
+  font-family: garamond;
+  font-size: larger;
+ }
+  .copy{
+        text-align: center;
+        font-size: larger;
+    }
+.column-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+ font-size: larger;
+ margin-top: auto;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+ box-sizing: content-box;
+ color: black;
+}
+  .column a {
+    text-decoration: none;
+    color: black;
+  }
+ .column  a:hover{ 
+    color:goldenrod; }
+   
+ .column p:hover{
+ color: goldenrod;
+}
+
+@media screen and (max-width: 768px) {
+  .column-container {
+    flex-direction: column;
+  }
+}
+
+.newsletter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px;
+  font-family: garamond;
+  height: 180px;
+  background-color: goldenrod;
+  margin-right: 2px;
+}
+
+.newsletter-text {
+  flex-basis: 40%;
+  margin-left: 20px;
+}
+
+.newsletter-form {
+  flex-basis: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+input[name="email"] {
+  font-style: italic;
+  color: grey;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom:1px solid white;
+  border-radius: 2px;
+  margin-right: 12px;
+  flex-basis: 70%;
+  margin-bottom: 15px;
+  background-color: goldenrod;
+  
+}
+input[type="email"]:focus{
+        border: none;
+          border-bottom:1px solid white;
+          background-color: goldenrod;
+
+
+}
+button[type="submit"] {
+  padding: 12px;
+  font-size: 20px;
+  background-color: goldenrod;
+  color: white;
+  font-family: garamond;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-basis: 25%;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: white;
+  color: goldenrod;
+}
+.nn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nnn{
+  font-size: 60px;
+  color: black;
+  text-align: center;
+  font-weight: 300;
+}
+.mm p{
+font-size: xx-large;
+}
+.mm a{
+  text-decoration: none;
+  color: goldenrod;
+}
+.mm a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+          

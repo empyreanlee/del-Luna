@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="cool.css">
+<script src="kuku.js"></script>
+<link rel="stylesheet" href="nyx.css">
+<div class="top-bar">
+<div class="left-nav">
+    
+    
+   <span onclick="openNav()">MENU</span>    
+  </div>
+    <div class="logo">
+      <img src="h/logo.png"  alt="del Luna">
+    </div>
+    <div class="right-nav">
+        <a href="book.php" style="color: black;">BOOK NOW</a>
+    </div>
+  </div>  
+               
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <img style="margin-left: 3rem;"  src="h/go.png" width="28%" >
+    <a href="home.php">Home</a><br>
+    <a href="pic.php">Rooms & Suites</a>
+    <a href="#">Restaurant & Bar</a>
+    <a href="adminlogin.php">Login</a>
+    <a href="contact.php">Contact Us</a>
+  </div> 
+  <div class="content" style="margin-top: 80px;">
+    <img class="mySlides fade" src="h/1638889006-5_edited.jpg" width=100% height="auto">
+    <img class="mySlides fade" src="h/1638889006-4.jpg" width=100% height="auto">
+    <img class="mySlides fade" src="h/1638889006-6.jpg"width=100% height="auto">
+    <img class="mySlides fade" src="h/1638889006-7.jpg"width=100% height="auto">
+    <img class="mySlides fade" src="h/1638889006-9.jpg"width=100% height="auto">
+    <img class="mySlides fade" src="h/1638889005-3.jpg"width=100% height="auto">
+    <img class="mySlides fade" src="h/1638889005-2.jpg"width=100% height="auto">
+    <img class="mySlides fade" src="h/1638889005-1.jpg"width=100% height="auto">
+    <img class="mySlides fade" src="h/1638889007-12.jpg"width=100% height="auto">
+    <img class="mySlides fade" src="h/1638889006-8_edited.jpg"width=100% height="auto">
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <figcaption style="position: absolute;
+                  top: 2cm; left: 2cm;
+                  display: inline-block;
+                   color:white ;
+                   font-family:Mason Bold ;" >
+                    <h1>Luxurious & Comfortable</h1>
+                  <h1 style="margin-left: 14px;">Hotel del Luna, Oregon</h1>
+     </figcaption>
+    
+    </div>
+    <style type="text/css">
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 3s;
+            animation-name: fade;
+            animation-duration: 3s;
+          }
+          @-webkit-keyframes fade {
+            from {
+              opacity: .4
+            }
+            to {
+              opacity: 1
+            }
+          }
+          @keyframes fade {
+            from {
+              opacity: .4
+            }
+            to {
+              opacity: 1
+            }
+          }
+          .prev,
+          .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+          }
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover,
+          .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+          }
+          @media only screen and (max-width: 300px) {
+            .prev,
+            .next
+             {
+              font-size: 11px
+            }
+          }
+    </style>
+    <script>
+      var slideIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1}
+      x[slideIndex-1].style.display = "block";
+      setTimeout(carousel, 6000); // Change image every ? seconds
+    }    
+    </script>  
+<body>
+ <style>
+  body{
+    font-family: garamond;
+  }
+ </style>
+  <div class="homes" id="about">
+    <br><br>
+      <div style="text-align: center; font-size: larger;">Welcome to Hotel del Luna, where your perfect gateaway awaits!</div>
+      <div style="text-align: center; font-size: larger;"> Our beautiful resort is dicreetly nestled at the edge of Grimm forest, surrounded by lush greenery and stunning views of the scenery.</div>
+      <div style="text-align: center; font-size: larger;"> In here lies our luxury hotel which gives a sensational experience. Discover this resortas the perfect destination for those seeking</div> 
+      <div style="text-align: center; font-size: larger;">a retreat from the hustle and bustle of everyday life.</div>
+     <br>
+      <img class="nn"  src="h/go.png" width="3%">
+   <br><br>
+    <div class="image ">
+      <img src ="h/about.jpg" style="float:right; margin: 0px 30px 1px 200px; width: 25% ; " height="450">
+    </div>   
+<p class="merge">Hotel del Luna</p>
+<h1 class="men"> A New Dimension of Luxury</h1>
+<p1  >Hotel del Luna is located at Portland-Oregon junction. The resort offers a fun filled escape from life hustle and bustle. Boasting over 100 accommodation rooms wrapped in alluring style and modern decor, multiple on-site restaurants serving different cuisines, a lounge bar, conference rooms, a massive pool and extensive gardens with lots of activities for both adults and children.</p1><br>
+<p2> This is an ideal base for business travellers, family events and holiday seekers. Whether your stay is long or short, there’s a feeling of ease about this environment, with a vibe that's truly one of a kind and prestige that accompanies period décor.</p2>
+</div>
+<div class="header">
+<p class="stylist"> Rooms & Suites</p>  
+<img src ="h/hotelroom.jpg" style="float:right; margin: 0px 2px 15px 120px; width: 40%;">
+<h1 class="style">Comfort & Luxury</h1>
+<p1 > Featuring a pleasant blend of functionality, modern feel and elegance, the decor and furnishings create an inviting ambience fostering relaxation and a great sense of well-being from the moment you check in. With the diverse blend of rooms options, you will definitely find that ideal accommodation option that suites your taste and budget.
+</p1><br><br>
+<div class="av">
+<a href="room.php" > --View Rooms</a>
+<style>
+  .av a{
+color: goldenrod;
+opacity: 0.9;
+  
+}
+
+.av a:hover{
+color: blue;
+opacity: 1;
+}
+</style>
+</div>
+</div>
+<br>
+<div class="head">
+<p class="ten"> Meetings & Events</p>
+
+<h1 class="tenten"> Memorable Events </h1>
+<p4 >Memorable events, meetings or gatherings start with an extraordinary setting. We have spectacular forest-views, distinct venues and serene spaces that create one-of-a-kind settings for business events, celebrations and any other significant occasions.</p4> 
+<br>
+<p5>Book your space with details of your event and our skilled event planning team will gladly help transform your corporate or social event into an elegant and dynamic affair.</p5>
+</div>
+
+<div class="row">
+<div class="column">
+  <a href="#" > 
+  <img src ="h/conf.jpg" class="enlarge"  ></a>
+ </div>
+ <div class="column">
+  <a href="#" > 
+  <img src ="h/boardn.jpg" class="enlarge" ></a>
+ </div>
+  <div class="column">
+    <a href="#" > 
+    <img src ="h/party.jpg" class="enlarge"></a>
+</div>
+    <div class="column">
+
+      <a href="#" > 
+      <img src ="h/web.jpg"  class="enlarge" ></a>
+</div>
+</div>
+<style>
+.row{
+    margin-left: 4rem;
+	display :flex;
+	flex :50%;
+padding: 5px;
+gap: 15px;
+}
+.enlarge {
+  width:400px;
+  transition: all 0.3s;
+}
+ .enlarge:hover{
+width: 402px;
+}
+</style>
+<div class="on" >
+<div class="one">
+<p class="onea">Activities</p>
+  <img src ="h/experiences.jpg" style="float:right; margin: 0px 2px 15px 70px; width: 40%;">
+<h1 class="oneb">Unforgettable
+  experiences
+  tailored for you</h1>
+ <p style="font-weight: 400;"> Morning, noon, or late at night, there is always something going on at Hotel del Luna that will be a delight to all our discerning travellers.
+  With options ranging from Camping by the river, Rooftop VIP lounge, Bar Lounge, Swimming Pool, Private Gazebos, Kids Playground, Bonfire Experience among many customised experiences. </p>
+<br><br>
+</div>
+<div style="height: 250px;">
+<a href="#" style="  text-decoration: none;
+	color: goldenrod;" > --View activities</a>
+  </div>  
+  </div>
+  <link rel="stylesheet" href="C:\Users\Jeremy\Desktop\museo_sans_ssv\Museo Sans 100">
+  <div class="slideshow-container">
+    <div class="slide">
+      <p class="review">"del Luna have outdone themselves. Great customer service with friendly staff. Delicious food.<br> The rooms were clean, well maintained and spacious with balconies. Nice bar. Amazing swimming pool.<br> A simply exquisite stay in Portland."</p>
+      <p class="author">- Vlad Tempest Dracula</p>
+    </div>
+    <div class="slide">
+      <p class="review">"The food is excellent, the ambience is good , the staff are welcoming and friendly,<br> their facilities are clean, they have good conferencing facilities, they have ample parking <br>and security is available......its generally a good place to have meetings  and <br>a nice hide out away from the hustle and bustle of the city."</p>
+      <p class="author">- Chat gpt</p>
+    </div>
+    <div class="slide">
+      <p class="review">"Really enjoyed the spacious rooms, the great ambience, the very friendly staff and <br> not to mention the well prepared meals. The breakfast was great. Kudos to del Luna team. <br>I will definitely come again."</p>
+      <p class="author">- The Ghost of Uchiha</p>
+    </div>
+    <div class="slide">
+      <p class="review">"Very good for couples or family. The rooms are amazingly spacious. The compound is good and good facilities for children to play. The food is good and the service is good."</p>
+      <p class="author">- Violet Snow</p>
+    </div>
+    <div class="slide">
+      <p class="review">"Views on point. Customer service is on point. Rates are fair. The place is beautiful. <br>Very relaxing and very convenient for a road trip stop."</p>
+      <p class="author">- Daenerys Targaryen</p>
+    </div>
+  </div>
+  <style type="text/css">
+    .slideshow-container {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  .slide.active {
+    opacity: 1;
+  }
+  .review {
+    font-size: 32px;
+    font-size: x-large;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-family: Museo Sans-300;
+  }
+  .author {
+    font-size: 22px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+  }
+  </style>
+  <script>
+    var slideIndex = 0;
+  var slides = document.getElementsByClassName("slide");
+  function showSlides() {
+    for (var i = 0; i < slides.length; i++) {
+      slides[i].classList.remove("active");
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    slides[slideIndex - 1].classList.add("active");
+    setTimeout(showSlides, 7500); // Change image every 5 seconds
+  }
+  showSlides();
+  </script>
+  <div>
+<link rel="stylesheet" href="sc.css">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfFtcaHhDndYckNjP2rree4oh1d6zaeOA"></script>
+<script>
+  function initMap() {
+    var mapOptions = {
+    center: {lat: -1.27104216776166, lng: 36.80865520247225 },
+      zoom: 15
+    };
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  }
+</script>
+</head>
+<body onload="initMap()">
+<div class="container">
+  <div class="left-column">
+  <link rel="stylesheet" type="text/css" href="C:\Users\Jeremy\Desktop\museo_sans_ssv\Museo Sans 100"> 
+            <div class=br>
+              <div class="text">
+   <p>-- Contact Details & Google Map Location</p>
+  <h>Hotel del Luna</h><br>
+  RESORT LOCATION<br>
+    Portland - Oregon<br>
+    P.O Box 708 00534<br>
+    Oregon, Kenya<br><br>
+       RESORT TELEPHONE NUMBERS<br>
+     
+       +254 757 553 257<br>
+      +254 757 555 258<br><br>
+       RESORT EMAIL ADDRESSES<br>
+       info@hoteldeluna.co.ke | book@hoteldeluna.co.ke<br>
+  <br><br>
+   <a href="">
+   --Contact Us</a>     
+      </div>
+  </div>
+</div>
+  <div class="right-column">
+    <div id="map"></div>
+  </div>
+</div>
+</body>
+</div>
+<div class="newsletter-container">
+  <div class="newsletter-text">
+    <h2>Subscribe to Our Newsletter</h2>
+    
+  </div>
+  <form class="newsletter-form" action="login.php" method="post">
+    <label for="email"></label>
+    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+    <button type="submit" name="subscribe">Subscribe</button>
+  </form>
+</div>
+<div class="foot">
+  <link rel="stylesheet" href="C:\Users\Jeremy\Desktop\Mason\Mason Bold">
+          <p class="nnn" style="font-family: garamond">Quick Links</p>
+  <div class="column-container">
+    <div class="column">
+      <p>Facebook</p>
+      <p>Twitter</p>
+      <p>Instagram</p>
+       <p>Youtube</p>
+     </div>
+    <div class="column">
+      <p><a style="color: black;" href="home.php">back to top</a></p>
+      <p><a style="color: black;" href="pic.php">Rooms & Suites</a></p>
+      <p><a style="color: black;" href="rooms.php">Restaurant & Bars</a></p>
+      <p><a style="color: black;" href="rooms.php">Meetings & Events</a></p>
+  
+    </div>
+    <div class="column">
+      RESORT LOCATION<br>
+      Portland - Oregon<br>
+      24th Avenue<br>
+      P.O. Box 708 00534<br>
+      Oregon, Kenya.<br><br>
+      RESORT CONTACT INFO<br>
+          +254 757 553 257<br>
+          info@hoteldeluna.co.ke |
+              book@hoteldeluna.co.ke<br><br><p></p><p></p>
+  </div>
+  </div>
+  <p></p><p></p>
+  <img class="nn"  src="h/go.png" width="3%">
+
+                    <hr style="width: 90%; left: 1cm;">
+              <div class="copy">
+                      © Copyright of Hotel del Luna. 2023.All Rights Reserved.
+              </div>
+            </div>
+</body>
+</html>
